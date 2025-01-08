@@ -1,2 +1,2 @@
 # neural-network-matlab-no-lib
-Implementation of Nerural Network on MATLAB Without Using Libraries
+Implementation of Neural Network on MATLAB Without Using Libraries
