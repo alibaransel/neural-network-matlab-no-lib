@@ -19,7 +19,6 @@ for iL = 2:layerCount
     b{iL-1} = rand([structure(iL), 1]) * 2 - 1;
 end
 
-
 % Hyperparameters
 learningRate = 0.0001;
 epochs = 10000;

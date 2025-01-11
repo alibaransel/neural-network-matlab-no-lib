@@ -19,7 +19,7 @@ function [dataTable, data, x, y, xTrain, yTrain, xTest, yTest] = getData(fileNam
     ratio = 0.8;
     cut = floor(ratio*m);
     xTrain = x([1:cut],:);
-    yTrain = y([1:cut]);
+    yTrain = y([1:cut]) >= 50;
     xTest = x([cut+1:m],:);
-    yTest = y([cut+1:m]);
+    yTest = y([cut+1:m]) >= 50;
 end
