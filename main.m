@@ -86,7 +86,7 @@ end
 
 % Compute test loss
 outputTest = aTest{end};
-testLoss = -mean(yTrain' .* log(output) + (1 - yTrain') .* log(1 - output));
+testLoss = -mean(yTest' .* log(outputTest) + (1 - yTest') .* log(1 - outputTest));
 fprintf('Test Loss: %.6f\n', testLoss);
 
 % Display time, accuracy and epoch-loss graph
